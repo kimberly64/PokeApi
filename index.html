@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApi Buscador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <!-- Título principal -->
+        <h1 class="text-center mb-4">PokeApi Buscador</h1>
+        
+        <!-- Buscador de Pokémon -->
+        <div class="input-group mb-3">
+            <input type="text" id="pokemonName" class="form-control" placeholder="Escribe el nombre o ID del Pokémon" aria-label="Nombre o ID del Pokémon">
+            <button id="searchBtn" class="btn btn-primary">Buscar</button>
+        </div>
+        
+        <!-- GIF decorativo -->
+        <div class="text-center mb-5">
+            <img src="https://media.giphy.com/media/uLnPIqN6MaLGg/giphy.gif" alt="Pokémon GIF" class="img-fluid" style="max-width: 300px;">
+        </div>
+        
+        <!-- Resultados -->
+        <div id="result" class="d-flex justify-content-center"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 mt-5">
+        <p class="mb-0">Hecho con ❤️ por <a href="https://github.com/kimberly64" target="_blank">Kimberly64</a></p>
+        <small>"Atrápalos a todos... ¡pero empieza con la PokeAPI!"</small>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
